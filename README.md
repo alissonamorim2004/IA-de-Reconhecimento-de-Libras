@@ -11,7 +11,8 @@ Detecção de Mãos em Tempo Real: Utilizando a biblioteca MediaPipe, o sistema 
 
 Interface Amigável: Durante a execução, o sistema exibe na tela a letra correspondente ao gesto detectado, tornando o aprendizado mais acessível e divertido.
 
-Tecnologias Utilizadas
+- Tecnologias Utilizadas
+
 Python: Linguagem de programação utilizada para o desenvolvimento do projeto.
 OpenCV: Biblioteca para processamento de imagens e captura de vídeo.
 NumPy: Biblioteca para operações matemáticas e manipulação de arrays.
