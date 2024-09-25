@@ -1,5 +1,19 @@
-Desenvolvi este projeto em Python, utilizando bibliotecas como OpenCV, NumPy, TensorFlow e MediaPipe. Ele consiste em um sistema de reconhecimento de letras do alfabeto por meio da detecção de gestos de mãos em imagens, representando uma leitura das mãos para reconhecimento de Libras com inteligência artificial.
+Este projeto foi desenvolvido em Python e utiliza as bibliotecas OpenCV, NumPy, TensorFlow e MediaPipe para criar um sistema de reconhecimento de letras do alfabeto por meio da detecção de gestos das mãos. O objetivo é facilitar a leitura das mãos e promover o reconhecimento da Língua Brasileira de Sinais (Libras) com o auxílio da inteligência artificial.
 
-Iniciei o projeto carregando imagens de referência das letras A, B e C e as pré-processando para uso no treinamento do modelo. Utilizei TensorFlow para criar e treinar uma rede neural convolucional capaz de reconhecer essas letras. A detecção de mãos foi realizada com a biblioteca MediaPipe, que oferece um detector de mãos eficiente.
+Funcionalidades Principais
+Reconhecimento de Gestos: O sistema é capaz de identificar gestos de mão correspondentes às letras A, B, C, D e E, fornecendo uma interface intuitiva para usuários interessados em aprender Libras.
 
-Durante a execução do script, a câmera captura vídeo e, em cada quadro, o sistema detecta mãos, pré-processa a imagem e classifica a letra correspondente ao gesto da mão utilizando o modelo treinado. 
+Pré-processamento de Imagens: As imagens de referência são carregadas e pré-processadas, incluindo redimensionamento e normalização, para garantir que sejam adequadas para o treinamento do modelo.
+
+Modelo de Aprendizado Profundo: Foi criada uma rede neural convolucional utilizando TensorFlow, que foi treinada com as imagens pré-processadas para reconhecer as letras com precisão.
+
+Detecção de Mãos em Tempo Real: Utilizando a biblioteca MediaPipe, o sistema detecta mãos em tempo real, permitindo uma interação dinâmica. O vídeo da câmera é processado quadro a quadro, onde cada gesto é analisado e classificado.
+
+Interface Amigável: Durante a execução, o sistema exibe na tela a letra correspondente ao gesto detectado, tornando o aprendizado mais acessível e divertido.
+
+Tecnologias Utilizadas
+Python: Linguagem de programação utilizada para o desenvolvimento do projeto.
+OpenCV: Biblioteca para processamento de imagens e captura de vídeo.
+NumPy: Biblioteca para operações matemáticas e manipulação de arrays.
+TensorFlow: Framework de aprendizado de máquina usado para construir e treinar a rede neural.
+MediaPipe: Biblioteca que facilita a detecção de mãos e outros recursos em tempo real.
