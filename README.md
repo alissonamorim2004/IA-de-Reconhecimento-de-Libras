@@ -19,3 +19,16 @@ Tecnologias Utilizadas
 - NumPy: Biblioteca para operações matemáticas e manipulação de arrays.
 - TensorFlow: Framework de aprendizado de máquina usado para construir e treinar a rede neural.
 - MediaPipe: Biblioteca que facilita a detecção de mãos e outros recursos em tempo real.
+
+
+---
+
+## Origem do projeto
+
+Este sistema é a terceira iteração de um trabalho que começou em 2024:
+
+1. [Hand Tracking com OpenCV e MediaPipe](https://github.com/alissonamorim2004/Hand-Tracking-com-OpenCV-e-MediaPipe) — extração de landmarks
+2. [Projetos em Python / Libras Sistema](https://github.com/alissonamorim2004/Projetos-em-Python) — primeira classificação
+3. Este repositório — CNN própria, reconhecimento em tempo real
+
+Apresentado como TCC e premiado em competição na faculdade.
